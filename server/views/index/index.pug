@@ -1,0 +1,33 @@
+extends ../layout/index
+block slider
+    .slider
+        h1 Rio de Janeiro
+        em aventura
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col-md-6
+                p Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?
+                p Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg" class = "img-fluid")
+
+        h2.text-center.mb-5 Próximos Viajes
+        include ../layout/partials/viajes
+
+
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    .contenido
+                        h3 %5 de Descuento
+                        p.titulo Viaje a Canada
+                        p.fecha 20 de marzo 2019 - 28 de Marzo 2019
+                        p.precio $52564
+    
+    .container
+        h2.text-center.my-5 Testimoniales
+        include ../layout/partials/testimoniales
